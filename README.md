@@ -35,7 +35,7 @@ Using this system is very simple and consists of two main phases:
 
 ### Phase 1: The Discovery Phase
 
-1. **Start the Conversation**: Copy the entire content of the `360_business_discovery_prompt_v2.md` file and paste it into a new conversation with your preferred AI model.
+1. **Start the Conversation**: Copy the entire content of the `starter_prompt.md` file and paste it into a new conversation with your preferred AI model.
 2. **Choose the Interview Method**: The AI will offer you two options:
    - **Option (A)**: Ask you one question at a time (ideal if you prefer a structured, step-by-step thinking process).
    - **Option (B)**: Do a "brain dump" where you write everything you know in one message, and the AI will extract the information and only ask about the missing gaps.
@@ -45,6 +45,7 @@ Using this system is very simple and consists of two main phases:
 ### Phase 2: Output Generation Phase
 
 Once full understanding is achieved, the AI will automatically generate (or guide you to create) a complete file structure for your project containing:
+
 1. **`PROJECT_BRIEF.md`**: A comprehensive summary of your project with all the details, acting as a ready-reference that you can give to any other AI to instantly understand your project.
 2. **Selected Strategies**: The AI will search the `Frameworks/` directory and select 3-5 frameworks (like Competitor Analysis or Business Model Canvas) to populate based on your current needs.
 3. **Selected Marketing Skills**: The AI will recommend the best skills from the `Marketing_Skills/` directory that should be utilized to begin actual execution.
@@ -54,6 +55,7 @@ Once full understanding is achieved, the AI will automatically generate (or guid
 ## ⚙️ How It Works Under the Hood
 
 This prompt is built using advanced Prompt Engineering techniques:
+
 - **Chain-of-Thought**: Forces the AI to silently think and analyze your answer before responding to you.
 - **State Snapshot**: Prevents the AI from forgetting earlier context (the "Lost in the Middle" problem) by maintaining a permanent, compact summary of the project that updates secretly with every message.
 - **Dynamic Framework Selection**: The prompt contains a Decision Tree that enables the AI to dynamically choose the most appropriate strategic framework or marketing skill based on your answers.

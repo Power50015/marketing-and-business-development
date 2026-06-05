@@ -464,6 +464,7 @@ how_to_use:
   - "Scan all folders in the 'Marketing_Skills/' directory to find the most suitable marketing skills to apply"
   - "Use STRATEGIC FRAMEWORKS SELECTED & MARKETING SKILLS SELECTED sections to choose what to apply first"
   - "Use AI VERIFICATION CHECKLIST to verify the AI understood correctly before proceeding"
+  - "Apply the 'stop-slop' skill (Marketing_Skills/stop-slop/SKILL.md) to ensure all output prose is natural and free of predictable AI patterns"
 ---
 
 # PROJECT_BRIEF — [PROJECT NAME]
@@ -837,6 +838,7 @@ Marketing_Skills/
 ├── site-architecture/
 ├── sms/
 ├── social/
+├── stop-slop/
 └── video/
 ```
 
@@ -871,8 +873,9 @@ Marketing_Skills/
 - [ ] I know which frameworks have been selected to apply
 - [ ] I know which marketing skills have been selected to apply
 - [ ] I know which work templates are most relevant
+- [ ] I am applying the 'stop-slop' skill to ensure my generated prose is natural and free of AI patterns
 
-**If you checked all 12 boxes:** You have sufficient context. Proceed with confidence.
+**If you checked all 13 boxes:** You have sufficient context. Proceed with confidence.
 **If any box is unchecked:** Read the relevant AREA section above before proceeding.
 
 ---
@@ -885,7 +888,8 @@ Step 1: Read EXECUTIVE SUMMARY (60 seconds)
 Step 2: Review the Strategy templates in 02_Strategy/
 Step 3: Review the selected frameworks in 03_Frameworks/
 Step 4: Review the selected marketing skills in the PROJECT_BRIEF
-Step 5: Execute the first step listed in the action_plan.md utilizing the selected Marketing Skills
+Step 5: Apply the `stop-slop` skill (Marketing_Skills/stop-slop/SKILL.md) to all generated prose to remove AI tells and filler phrases.
+Step 6: Execute the first step listed in the action_plan.md utilizing the selected Marketing Skills
 
 ```
 
