@@ -17,13 +17,15 @@ and the project adheres to [Semantic Versioning](https://semver.org/).
 - Version mismatches across files: all three core files now declare **v2.1**.
 
 ### Changed
-- Corrected skill counts in `README.md`: 55+ → **44 marketing skills**; 15 → **13 context-engineering skills**; 70+ → **57 total skills**.
+- Corrected skill counts in `README.md`: 55+ → **44 marketing skills**; 15 → **15 context-engineering skills**; 70+ → **59 total skills**.
 - Corrected framework count: 50+ → **48 strategic frameworks**; 7 categories → **11 categories**.
 - `PROJECT_BRIEF_template.md` YAML frontmatter now includes `priority_skills: []`, `available_skills_path:`, and an expanded `how_to_use:` block (6 items, matching `starter_prompt.md`).
 - Added `## 🛠️ MARKETING SKILLS SELECTED` section to `PROJECT_BRIEF_template.md` (previously only present in `starter_prompt.md`).
 - AI Verification Checklist is now a canonical 14-item list in both `starter_prompt.md` and `PROJECT_BRIEF_template.md`, including the new items:
   - "I have refreshed my State Snapshot with the latest answers"
   - "I am applying the 'stop-slop' skill to ensure my generated prose is natural and free of AI patterns"
+- Added missing `SKILL.md` files for three context-engineering skills: `harness-engineering`, `latent-briefing`, `project-development`.
+- Updated `Skills/context-engineering/README.md` to include two additional upstream skills: `bdi-mental-states`, `hosted-agents` (total: 15 context-engineering skills).
 
 ### Removed
 - `repo-temp/` directory (250+ stale files: Python experiments, JSONL traces, PNG screenshots, macOS plist LaunchAgents). Content is no longer needed and was unrelated to the core system.
