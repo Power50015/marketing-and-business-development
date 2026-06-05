@@ -24,7 +24,7 @@ This project consists of the following core components:
 │   ├── External_Analysis/               # External Market Analysis
 │   ├── Internal_Analysis/               # Internal Capabilities Analysis
 │   └── Strategy_and_Direction/          # Overall Strategy & Direction
-└── Marketing_Skills/                    # Library of specialized marketing skills for strategy execution.
+└── Skills/                    # Library of specialized marketing skills for strategy execution.
 ```
 
 ---
@@ -48,7 +48,7 @@ Once full understanding is achieved, the AI will automatically generate (or guid
 
 1. **`PROJECT_BRIEF.md`**: A comprehensive summary of your project with all the details, acting as a ready-reference that you can give to any other AI to instantly understand your project.
 2. **Selected Strategies**: The AI will search the `Frameworks/` directory and select 3-5 frameworks (like Competitor Analysis or Business Model Canvas) to populate based on your current needs.
-3. **Selected Marketing Skills**: The AI will recommend the best skills from the `Marketing_Skills/` directory that should be utilized to begin actual execution.
+3. **Selected Marketing Skills**: The AI will recommend the best skills from the `Skills/` directory that should be utilized to begin actual execution.
 
 ---
 

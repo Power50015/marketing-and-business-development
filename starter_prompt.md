@@ -457,14 +457,14 @@ priority_skills:
   - "[Skill 1 name]"
   - "[Skill 2 name]"
 available_frameworks_path: "Frameworks/"
-available_skills_path: "Marketing_Skills/"
+available_skills_path: "Skills/"
 how_to_use:
   - "Give this file to any AI before starting work → instant full context"
   - "Scan all files in the 'Frameworks/' directory to find the most suitable templates and frameworks for this specific project"
-  - "Scan all folders in the 'Marketing_Skills/' directory to find the most suitable marketing skills to apply"
+  - "Scan all folders in the 'Skills/' directory to find the most suitable marketing skills to apply"
   - "Use STRATEGIC FRAMEWORKS SELECTED & MARKETING SKILLS SELECTED sections to choose what to apply first"
   - "Use AI VERIFICATION CHECKLIST to verify the AI understood correctly before proceeding"
-  - "Apply the 'stop-slop' skill (Marketing_Skills/stop-slop/SKILL.md) to ensure all output prose is natural and free of predictable AI patterns"
+  - "Apply the 'stop-slop' skill (Skills/stop-slop/SKILL.md) to ensure all output prose is natural and free of predictable AI patterns"
 ---
 
 # PROJECT_BRIEF — [PROJECT NAME]
@@ -756,10 +756,10 @@ The person should feel completely understood when reading this.]
 
 ### Priority Skills
 
-| Skill | Why It's Priority | Path                            |
-| ----- | ----------------- | ------------------------------- |
-|       |                   | `Marketing_Skills/[skill_name]` |
-|       |                   |                                 |
+| Skill | Why It's Priority | Path                  |
+| ----- | ----------------- | --------------------- |
+|       |                   | `Skills/[skill_name]` |
+|       |                   |                       |
 
 ### Frameworks Reference — Full Library Available
 ```
@@ -795,7 +795,7 @@ Frameworks/Growth_and_Innovation/
 
 ### Marketing Skills Reference — Full Library Available
 ```text
-Marketing_Skills/
+Skills/
 ├── ab-testing/
 ├── ad-creative/
 ├── ads/
@@ -888,7 +888,7 @@ Step 1: Read EXECUTIVE SUMMARY (60 seconds)
 Step 2: Review the Strategy templates in 02_Strategy/
 Step 3: Review the selected frameworks in 03_Frameworks/
 Step 4: Review the selected marketing skills in the PROJECT_BRIEF
-Step 5: Apply the `stop-slop` skill (Marketing_Skills/stop-slop/SKILL.md) to all generated prose to remove AI tells and filler phrases.
+Step 5: Apply the `stop-slop` skill (Skills/stop-slop/SKILL.md) to all generated prose to remove AI tells and filler phrases.
 Step 6: Execute the first step listed in the action_plan.md utilizing the selected Marketing Skills
 
 ```
