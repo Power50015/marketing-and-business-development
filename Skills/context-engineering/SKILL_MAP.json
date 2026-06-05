@@ -1,0 +1,84 @@
+{
+  "name": "context-engineering",
+  "description": "Foundation in context engineering for building, optimizing, and debugging production-grade AI agent systems. Covers context curation, harness engineering, multi-agent architectures, and memory systems. Activates when the agent system exhibits context degradation (lost-in-the-middle, tool bloat, overflow), skill boundary confusion, cross-session amnesia, or multi-agent inefficiency. Designed to integrate with and enhance the existing 55+ marketing and business intelligence skills ecosystem.",
+  "version": "2.3.0",
+  "author": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+  "license": "MIT",
+  "upstream": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+  "skills": [
+    {
+      "name": "context-fundamentals",
+      "description": "Establish mental models for what context is, how attention mechanics work, why context quality > quantity, and the anatomy of a context window. Activates when planning agent architecture or explaining how context components affect model behavior."
+    },
+    {
+      "name": "context-degradation",
+      "description": "Diagnose and mitigate five predictable failure patterns: lost-in-middle, poisoning, distraction, confusion, and clash. Activates when diagnosing attention failures, context poisoning, or degraded agent performance across long sessions."
+    },
+    {
+      "name": "context-compression",
+      "description": "Design compression strategies for long-running sessions. Anchored Iterative, Opaque, and Regenerative approaches. Activates when preserving useful state while reducing conversation, tool-output, or trajectory size under context pressure."
+    },
+    {
+      "name": "context-optimization",
+      "description": "Apply compaction, masking, and caching strategies to extend effective context capacity. Activates when improving token efficiency, retrieval precision, prefix reuse, masking, partitioning, or budget allocation."
+    },
+    {
+      "name": "multi-agent-patterns",
+      "description": "Orchestrator, peer-to-peer, and hierarchical multi-agent architectures. Core insight: sub-agents exist primarily to isolate context. Activates when choosing coordination patterns, isolating context across agents, or designing handoffs."
+    },
+    {
+      "name": "memory-systems",
+      "description": "Short-term, long-term, and graph-based memory architectures. Framework comparison (Mem0, Zep/Graphiti, Letta, Cognee, LangMem). Activates when persisting cross-session knowledge, tracking entities over time, or designing retrieval and update semantics."
+    },
+    {
+      "name": "tool-design",
+      "description": "Agent-tool contract design, tool surface consolidation, description engineering, and error message optimization. Activates when defining agent-tool contracts, consolidating tool surfaces, or making tool errors actionable."
+    },
+    {
+      "name": "filesystem-context",
+      "description": "Filesystem-based dynamic context discovery, tool output offloading, plan persistence, and scratchpad patterns. Activates when moving large or durable context into files, creating scratchpads, or coordinating agents through shared artifacts."
+    },
+    {
+      "name": "evaluation",
+      "description": "Deterministic checks, multi-dimensional rubrics, and outcome measurement frameworks for agent systems. Activates when creating deterministic checks, rubrics, regression suites, production monitoring, or quality gates."
+    },
+    {
+      "name": "advanced-evaluation",
+      "description": "LLM-as-a-Judge techniques: direct scoring, pairwise comparison, rubric generation, and bias mitigation. Activates when using LLM judges, pairwise comparison, calibration, or human-aligned quality assessment."
+    },
+    {
+      "name": "harness-engineering",
+      "description": "Autonomous agent harnesses with locked metrics, durable logs, novelty gates, rollback, and human approval boundaries. Activates when designing autonomous loops with locked evaluators, editable surfaces, and governance."
+    },
+    {
+      "name": "project-development",
+      "description": "Task-model fit analysis, batch pipeline architecture, structured output design, and cost estimation for LLM projects. Activates when deciding whether an LLM is appropriate, shaping batch pipelines, or creating staged artifacts."
+    },
+    {
+      "name": "latent-briefing",
+      "description": "Share task-relevant orchestrator state with workers via task-guided KV cache compaction. Activates when sharing orchestrator trajectory with workers when models are compatible."
+    }
+  ],
+  "whenNotToActivate": [
+    "For pure copywriting, cold outreach, or content strategy — use existing marketing skills (copywriting, cold-email, content-strategy)",
+    "For brand strategy, positioning, or pricing — use product-marketing or pricing skills",
+    "For SEO audit, A/B testing, or analytics setup — use seo-audit, ab-testing, or analytics skills",
+    "This skill is a foundational layer, not a replacement for your 55+ domain-specific marketing skills"
+  ],
+  "integration": {
+    "layer": "foundational / infrastructure",
+    "dependsOn": ["stop-slop"],
+    "enhances": [
+      "prospecting", "cold-email", "copywriting", "seo-audit", "content-strategy",
+      "cro", "ab-testing", "analytics", "marketing-plan", "customer-research"
+    ],
+    "upstreamRepo": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+    "upstreamLicense": "MIT",
+    "upstreamPath": "skills/"
+  },
+  "routingTriggers": [
+    "lost-in-the-middle", "context degradation", "tool bloat", "context overflow",
+    "skill boundary confusion", "cross-session amnesia", "multi-agent inefficiency",
+    "context compression", "memory persistence", "evaluation rubric", "LLM judge"
+  ]
+}

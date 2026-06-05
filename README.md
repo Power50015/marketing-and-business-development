@@ -39,14 +39,23 @@ The system is organized as a **multi-layer intelligence stack**:
 │      Finance & Risk (Break-Even, Cost-Benefit)             │
 │      Performance & Operations (OKRs, SMART Goals, PDCA)    │
 ├─────────────────────────────────────────────────────────────┤
-│  LAYER 3: MARKETING SKILLS (Skills/)                         │
+│  LAYER 3: CONTEXT ENGINEERING (Skills/context-engineering/) │
+│  └── 15 foundational agent infrastructure skills:           │
+│      Context Fundamentals, Degradation, Compression,        │
+│      Optimization, Multi-Agent Patterns, Memory Systems,    │
+│      Tool Design, Filesystem Context, Evaluation,           │
+│      Advanced Evaluation, Harness Engineering,              │
+│      Project Development, Latent Briefing                   │
+│      (Source: muratcankoylan/Agent-Skills-for-Context-Engineering)│
+├─────────────────────────────────────────────────────────────┤
+│  LAYER 4: MARKETING SKILLS (Skills/)                         │
 │  └── 55+ specialized skill modules for specific tasks:       │
 │      SEO, Content Strategy, Copywriting, Ads, Analytics     │
 │      Cold Email, Prospecting, CRO, A/B Testing             │
 │      Video, Social, PR, Launch, Pricing...               │
 │      Each skill: before-starting → framework → output format│
 ├─────────────────────────────────────────────────────────────┤
-│  LAYER 4: QUALITY CONTROL                                    │
+│  LAYER 5: QUALITY CONTROL                                    │
 │  └── stop-slop skill — removes AI writing patterns, filler │
 │      phrases, and formulaic structures from all generated   │
 │      prose before it reaches the user.                     │
@@ -99,6 +108,20 @@ If you already have a `PROJECT_BRIEF.md`, **any AI reading it** has instant full
 │   ├── action_plan_template_EN.md              # Execution planning template
 │   └── ecommerce_strategy_template.md          # E-commerce specific strategy
 ├── Skills/                                      # 55+ marketing skill modules
+│   ├── context-engineering/                     # Context engineering (15 skills)
+│   │   ├── context-fundamentals/                # Context window anatomy & attention mechanics
+│   │   ├── context-degradation/                 # Lost-in-middle, poisoning, distraction patterns
+│   │   ├── context-compression/                 # Anchored Iterative, Opaque, Regenerative compression
+│   │   ├── context-optimization/                # Compaction, masking, caching, partitioning
+│   │   ├── multi-agent-patterns/                # Orchestrator, swarm, hierarchical architectures
+│   │   ├── memory-systems/                      # Short/long-term & graph-based memory
+│   │   ├── tool-design/                         # Agent-tool contracts, consolidation, descriptions
+│   │   ├── filesystem-context/                  # Dynamic discovery, offloading, persistence
+│   │   ├── evaluation/                          # Deterministic checks, rubrics, quality gates
+│   │   ├── advanced-evaluation/                 # LLM-as-Judge, pairwise, bias mitigation
+│   │   ├── harness-engineering/                 # Locked metrics, durable logs, novelty gates
+│   │   ├── project-development/                 # Task-model fit, pipelines, cost estimation
+│   │   └── latent-briefing/                     # KV cache compaction for orchestrator→worker
 │   ├── prospecting/                             # B2B/B2C lead list building
 │   ├── cold-email/                              # Outreach email sequences
 │   ├── copywriting/                             # Marketing copy
@@ -238,6 +261,7 @@ The system uses a decision tree to recommend the right frameworks based on disco
 
 | Category | Skills | Purpose |
 |---|---|---|
+| **Context Engineering** | Context Fundamentals, Degradation, Compression, Optimization, Multi-Agent Patterns, Memory Systems, Tool Design, Filesystem Context, Evaluation, Advanced Evaluation, Harness Engineering, Project Development, Latent Briefing | Foundational agent infrastructure — make all other skills work reliably at scale |
 | **Acquisition** | SEO, content strategy, ads, social, PR, prospecting, cold email, launch, programmatic SEO, directory submissions | Find and attract customers |
 | **Conversion** | Copywriting, CRO, landing pages, signup, popups, lead magnets | Turn visitors into leads/customers |
 | **Activation** | Onboarding, first-session optimization, paywalls | Deliver first valued experience |
@@ -279,10 +303,12 @@ Most AI business advice is generic because the AI lacks context. This system sol
 | Property | Value |
 |---|---|
 | **System Name** | 360° Business Discovery & Marketing Intelligence System |
-| **Version** | 2.0 |
+| **Version** | 2.1 |
 | **Discovery Questions** | 37 across 8 areas |
 | **Strategic Frameworks** | 50+ across 7 categories |
+| **Context Engineering Skills** | 15 (from muratcankoylan/Agent-Skills-for-Context-Engineering) |
 | **Marketing Skills** | 55+ covering all marketing disciplines |
+| **Total Skills** | 70+ (15 foundational + 55 domain-specific) |
 | **Compatible With** | Any LLM (ChatGPT, Claude, Gemini, Cursor, etc.) |
 | **Discovery Output** | `PROJECT_BRIEF.md` — complete project intelligence |
 | **Quality Control** | `stop-slop` skill for every output |
@@ -299,6 +325,8 @@ Most AI business advice is generic because the AI lacks context. This system sol
 
 ---
 
-*Built on: Jobs-To-Be-Done Theory | Business Model Canvas | Porter's Five Forces | McKinsey 7S | Blue Ocean Strategy | VRIO | Three Horizons | Ansoff Matrix | SWOT/TOWS | AARRR Framework | SMART Goals | OKRs*
+*Built on: Jobs-To-Be-Done Theory | Business Model Canvas | Porter's Five Forces | McKinsey 7S | Blue Ocean Strategy | VRIO | Three Horizons | Ansoff Matrix | SWOT/TOWS | AARRR Framework | SMART Goals | OKRs | Context Engineering | Attention Mechanics | Multi-Agent Orchestration | Memory Systems | Harness Engineering*
 
-*Compatible with: Any AI model | Skills workflows | Spec-Kit | Work Templates*
+*Compatible with: Any AI model | Skills workflows | Spec-Kit | Work Templates | Claude Code Plugin | Open Plugins | Cursor*
+
+*Context Engineering source: muratcankoylan/Agent-Skills-for-Context-Engineering (MIT License)*
