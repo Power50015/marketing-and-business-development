@@ -453,11 +453,16 @@ generated_by: "360° Business Discovery System v2.0"
 priority_frameworks:
   - "[Framework 1 name]"
   - "[Framework 2 name]"
+priority_skills:
+  - "[Skill 1 name]"
+  - "[Skill 2 name]"
 available_frameworks_path: "Frameworks/"
+available_skills_path: "Marketing_Skills/"
 how_to_use:
   - "Give this file to any AI before starting work → instant full context"
   - "Scan all files in the 'Frameworks/' directory to find the most suitable templates and frameworks for this specific project"
-  - "Use STRATEGIC FRAMEWORKS SELECTED section to choose which frameworks to apply first"
+  - "Scan all folders in the 'Marketing_Skills/' directory to find the most suitable marketing skills to apply"
+  - "Use STRATEGIC FRAMEWORKS SELECTED & MARKETING SKILLS SELECTED sections to choose what to apply first"
   - "Use AI VERIFICATION CHECKLIST to verify the AI understood correctly before proceeding"
 ---
 
@@ -744,10 +749,21 @@ The person should feel completely understood when reading this.]
 |           |                   |                     | `Frameworks/[folder]/[file].md` |
 |           |                   |                     |                                 |
 
+## 🛠️ MARKETING SKILLS SELECTED
+
+> Based on the discovery conversation, these marketing skills are the most relevant for executing this project right now.
+
+### Priority Skills
+
+| Skill | Why It's Priority | Path |
+|-------|-------------------|------|
+|       |                   | `Marketing_Skills/[skill_name]` |
+|       |                   |      |
+
 ### Frameworks Reference — Full Library Available
 ```
 
-Frameworks/استراتيجية وتوجيه/
+Frameworks/Strategy_and_Direction/
 ├── blue_ocean_strategy_template.md
 ├── hoshin_kanri_template.md
 ├── mckinsey_7s_framework_template.md
@@ -755,18 +771,18 @@ Frameworks/استراتيجية وتوجيه/
 ├── value_chain_analysis_template.md
 └── vrio_framework_template.md
 
-Frameworks/تحليل خارجي/
+Frameworks/External_Analysis/
 ├── consumer_adoption_curve_template.md
 ├── pestle_analysis_template.md
 ├── porter_five_forces_template.md
 ├── product_lifecycle_template.md
 └── three_cs_ohmae_template.md
 
-Frameworks/تحليل داخلي/
+Frameworks/Internal_Analysis/
 ├── profitability_tree_template.md
 └── swot_tows_template.md
 
-Frameworks/نمو وابتكار/
+Frameworks/Growth_and_Innovation/
 ├── ansoff_matrix_template.md
 ├── bcg_matrix_template.md
 ├── consolidation_endgame_curve_template.md
@@ -774,6 +790,54 @@ Frameworks/نمو وابتكار/
 ├── greiner_growth_model_template.md
 └── three_horizons_template.md
 
+```
+
+### Marketing Skills Reference — Full Library Available
+```text
+Marketing_Skills/
+├── ab-testing/
+├── ad-creative/
+├── ads/
+├── ai-seo/
+├── analytics/
+├── aso/
+├── churn-prevention/
+├── co-marketing/
+├── cold-email/
+├── community-marketing/
+├── competitor-profiling/
+├── competitors/
+├── content-strategy/
+├── copy-editing/
+├── copywriting/
+├── cro/
+├── customer-research/
+├── directory-submissions/
+├── emails/
+├── free-tools/
+├── image/
+├── launch/
+├── lead-magnets/
+├── marketing-ideas/
+├── marketing-plan/
+├── marketing-psychology/
+├── onboarding/
+├── paywalls/
+├── popups/
+├── pricing/
+├── product-marketing/
+├── programmatic-seo/
+├── prospecting/
+├── referrals/
+├── revops/
+├── sales-enablement/
+├── schema/
+├── seo-audit/
+├── signup/
+├── site-architecture/
+├── sms/
+├── social/
+└── video/
 ```
 
 ---
@@ -805,9 +869,10 @@ Frameworks/نمو وابتكار/
 - [ ] I know the #1 challenge right now
 - [ ] I know what success looks like in 12 months
 - [ ] I know which frameworks have been selected to apply
+- [ ] I know which marketing skills have been selected to apply
 - [ ] I know which work templates are most relevant
 
-**If you checked all 11 boxes:** You have sufficient context. Proceed with confidence.
+**If you checked all 12 boxes:** You have sufficient context. Proceed with confidence.
 **If any box is unchecked:** Read the relevant AREA section above before proceeding.
 
 ---
@@ -819,7 +884,8 @@ Frameworks/نمو وابتكار/
 Step 1: Read EXECUTIVE SUMMARY (60 seconds)
 Step 2: Review the Strategy templates in 02_Strategy/
 Step 3: Review the selected frameworks in 03_Frameworks/
-Step 4: Execute the first step listed in the action_plan.md
+Step 4: Review the selected marketing skills in the PROJECT_BRIEF
+Step 5: Execute the first step listed in the action_plan.md utilizing the selected Marketing Skills
 
 ```
 
