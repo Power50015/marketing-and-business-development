@@ -1,7 +1,7 @@
 # 360° Business Discovery & Marketing Intelligence System
 
 > **AI-powered business intelligence framework for entrepreneurs, consultants, and marketing teams.**
-> Combines structured business discovery, 50+ strategic frameworks, and 55+ executable marketing skills into a single integrated workspace that works with any LLM.
+> Combines structured business discovery, 48 strategic frameworks, and 44 executable marketing skills into a single integrated workspace that works with any LLM.
 
 ---
 
@@ -12,8 +12,8 @@ This is a complete **business intelligence operating system** that lets any AI m
 **The system answers four critical questions:**
 
 1. **Where are we?** — Structured 8-area discovery covering project, customer, value prop, market, business model, marketing, team, and challenges.
-2. **What framework applies?** — 50+ research-backed strategic frameworks (SWOT, Blue Ocean, Porter's Five Forces, McKinsey 7S, etc.).
-3. **What marketing moves make sense?** — 55+ specialized skills covering every marketing discipline from SEO to video production, cold email to pricing strategy.
+2. **What framework applies?** — 48 research-backed strategic frameworks (SWOT, Blue Ocean, Porter's Five Forces, McKinsey 7S, etc.).
+3. **What marketing moves make sense?** — 44 specialized skills covering every marketing discipline from SEO to video production, cold email to pricing strategy.
 4. **How do we execute?** — Ready-to-use templates, evaluation rubrics, and integration guides for real-world tools.
 
 ---
@@ -30,7 +30,7 @@ The system is organized as a **multi-layer intelligence stack**:
 │      before generating any advice. Outputs PROJECT_BRIEF.md │
 ├─────────────────────────────────────────────────────────────┤
 │  LAYER 2: STRATEGIC FRAMEWORKS (Frameworks/)               │
-│  └── 50+ templates across 7 categories:                    │
+│  └── 48 templates across 11 categories:                    │
 │      Strategy & Direction (Blue Ocean, Porter, 7S, etc.)   │
 │      External Analysis (Five Forces, PESTLE, BCG, etc.)    │
 │      Internal Analysis (SWOT/TOWS, Profitability Tree)     │
@@ -40,7 +40,7 @@ The system is organized as a **multi-layer intelligence stack**:
 │      Performance & Operations (OKRs, SMART Goals, PDCA)    │
 ├─────────────────────────────────────────────────────────────┤
 │  LAYER 3: CONTEXT ENGINEERING (Skills/context-engineering/) │
-│  └── 15 foundational agent infrastructure skills:           │
+│  └── 13 foundational agent infrastructure skills:           │
 │      Context Fundamentals, Degradation, Compression,        │
 │      Optimization, Multi-Agent Patterns, Memory Systems,    │
 │      Tool Design, Filesystem Context, Evaluation,           │
@@ -49,7 +49,7 @@ The system is organized as a **multi-layer intelligence stack**:
 │      (Source: muratcankoylan/Agent-Skills-for-Context-Engineering)│
 ├─────────────────────────────────────────────────────────────┤
 │  LAYER 4: MARKETING SKILLS (Skills/)                         │
-│  └── 55+ specialized skill modules for specific tasks:       │
+│  └── 44 specialized skill modules for specific tasks:        │
 │      SEO, Content Strategy, Copywriting, Ads, Analytics     │
 │      Cold Email, Prospecting, CRO, A/B Testing             │
 │      Video, Social, PR, Launch, Pricing...               │
@@ -92,7 +92,7 @@ If you already have a `PROJECT_BRIEF.md`, **any AI reading it** has instant full
 ├── starter_prompt.md                          # The discovery conversation prompt
 ├── PROJECT_BRIEF_template.md                    # Template for the generated project brief
 ├── README.md                                    # This file
-├── Frameworks/                                  # 50+ strategic framework templates
+├── Frameworks/                                  # 48 strategic framework templates
 │   ├── Strategy_and_Direction/                  # Blue Ocean, Porter, 7S, VRIO, etc.
 │   ├── External_Analysis/                       # Five Forces, PESTLE, BCG, Ansoff, etc.
 │   ├── Internal_Analysis/                       # SWOT/TOWS, Profitability Tree
@@ -107,8 +107,8 @@ If you already have a `PROJECT_BRIEF.md`, **any AI reading it** has instant full
 │   ├── business_strategy_template_general.md    # Complete strategy document
 │   ├── action_plan_template_EN.md              # Execution planning template
 │   └── ecommerce_strategy_template.md          # E-commerce specific strategy
-├── Skills/                                      # 55+ marketing skill modules
-│   ├── context-engineering/                     # Context engineering (15 skills)
+├── Skills/                                      # 44 marketing skill modules
+│   ├── context-engineering/                     # Context engineering (13 skills)
 │   │   ├── context-fundamentals/                # Context window anatomy & attention mechanics
 │   │   ├── context-degradation/                 # Lost-in-middle, poisoning, distraction patterns
 │   │   ├── context-compression/                 # Anchored Iterative, Opaque, Regenerative compression
@@ -261,7 +261,7 @@ The system uses a decision tree to recommend the right frameworks based on disco
 
 | Category | Skills | Purpose |
 |---|---|---|
-| **Context Engineering** | Context Fundamentals, Degradation, Compression, Optimization, Multi-Agent Patterns, Memory Systems, Tool Design, Filesystem Context, Evaluation, Advanced Evaluation, Harness Engineering, Project Development, Latent Briefing | Foundational agent infrastructure — make all other skills work reliably at scale |
+| **Context Engineering** | Context Fundamentals, Degradation, Compression, Optimization, Multi-Agent Patterns, Memory Systems, Tool Design, Filesystem Context, Evaluation, Advanced Evaluation, Harness Engineering, Project Development, Latent Briefing (13 skills) | Foundational agent infrastructure — make all other skills work reliably at scale |
 | **Acquisition** | SEO, content strategy, ads, social, PR, prospecting, cold email, launch, programmatic SEO, directory submissions | Find and attract customers |
 | **Conversion** | Copywriting, CRO, landing pages, signup, popups, lead magnets | Turn visitors into leads/customers |
 | **Activation** | Onboarding, first-session optimization, paywalls | Deliver first valued experience |
@@ -305,10 +305,10 @@ Most AI business advice is generic because the AI lacks context. This system sol
 | **System Name** | 360° Business Discovery & Marketing Intelligence System |
 | **Version** | 2.1 |
 | **Discovery Questions** | 37 across 8 areas |
-| **Strategic Frameworks** | 50+ across 7 categories |
-| **Context Engineering Skills** | 15 (from muratcankoylan/Agent-Skills-for-Context-Engineering) |
-| **Marketing Skills** | 55+ covering all marketing disciplines |
-| **Total Skills** | 70+ (15 foundational + 55 domain-specific) |
+| **Strategic Frameworks** | 48 across 11 categories |
+| **Context Engineering Skills** | 13 (from muratcankoylan/Agent-Skills-for-Context-Engineering) |
+| **Marketing Skills** | 44 covering all marketing disciplines |
+| **Total Skills** | 57 (13 foundational + 44 domain-specific) |
 | **Compatible With** | Any LLM (ChatGPT, Claude, Gemini, Cursor, etc.) |
 | **Discovery Output** | `PROJECT_BRIEF.md` — complete project intelligence |
 | **Quality Control** | `stop-slop` skill for every output |
@@ -322,10 +322,22 @@ Most AI business advice is generic because the AI lacks context. This system sol
 2. **Apply frameworks:** Browse `Frameworks/` for the right strategic tool
 3. **Execute marketing:** Pick a skill from `Skills/` and follow its framework
 4. **Quality check:** Run `stop-slop` on any generated prose before publishing
+5. **Validate the workspace:** Run `python scripts/validate_repo.py` to confirm all files are consistent
 
 ---
 
-*Built on: Jobs-To-Be-Done Theory | Business Model Canvas | Porter's Five Forces | McKinsey 7S | Blue Ocean Strategy | VRIO | Three Horizons | Ansoff Matrix | SWOT/TOWS | AARRR Framework | SMART Goals | OKRs | Context Engineering | Attention Mechanics | Multi-Agent Orchestration | Memory Systems | Harness Engineering*
+## Repository Tooling
+
+| File | Purpose |
+|---|---|
+| `AGENTS.md` | Canonical agent behavior spec — read this first if you are an AI |
+| `CHANGELOG.md` | Version history and migration notes |
+| `docs/SCHEMA.md` | File schemas (YAML frontmatter, SKILL.md, framework templates) |
+| `scripts/validate_repo.py` | Automated consistency checker — run before committing |
+
+---
+
+*Built on: Jobs-To-Be-Done Theory | Business Model Canvas | Porter's Five Forces | McKinsey 7S | Blue Ocean Strategy | VRIO | Three Horizons | Ansoff Matrix | SWOT/TOWS | SMART Goals | OKRs | Context Engineering | Attention Mechanics | Multi-Agent Orchestration | Memory Systems | Harness Engineering*
 
 *Compatible with: Any AI model | Skills workflows | Spec-Kit | Work Templates | Claude Code Plugin | Open Plugins | Cursor*
 

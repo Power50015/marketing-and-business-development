@@ -1,0 +1,98 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.swp
+*.swo
+
+# Editor / IDE
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+.cursorindexingignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.npm
+.yarn
+.pnp.*
+*.tsbuildinfo
+package-lock.json.bak
+
+# Logs & temp
+*.log
+*.log.*
+*.tmp
+*.temp
+*.bak
+*.swp
+trace.txt
+analysis.txt
+optimization.txt
+optimized_prompt.txt
+tool_output.txt
+
+# Environment
+.env
+.env.local
+.env.*.local
+venv/
+.venv/
+env/
+
+# Build outputs
+dist/
+build/
+out/
+*.egg
+
+# Test / eval artifacts
+*.jsonl.bak
+accepted.jsonl
+rejected.jsonl
+adversarial.jsonl
+rejected-generic-source.json
+benchmark-history.jsonl
+metrics.jsonl
+bookmarks.jsonl
+posts.jsonl
+queue.jsonl
+prompts.jsonl
+interactions.jsonl
+contacts.jsonl
+meetings.jsonl
+registry.jsonl
+index.jsonl
+ideas.jsonl
+source-evaluation*.json
+validation-report.json
+
+# Screenshots (case-specific)
+Screenshot *.png
+Screenshot *.jpg
+
+# Repo temp / research artifacts
+repo-temp/
+plists/
+.com.apple.*
+
+# OS LaunchAgents
+com.*.plist
+
+# Generated briefs (user-specific)
+PROJECT_BRIEF_*.md
+!PROJECT_BRIEF_template.md
