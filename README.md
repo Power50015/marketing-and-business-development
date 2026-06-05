@@ -1,7 +1,7 @@
 # 360° Business Discovery & Marketing Intelligence System
 
 > **AI-powered business intelligence framework for entrepreneurs, consultants, and marketing teams.**
-> Combines structured business discovery, 48 strategic frameworks, and 44 executable marketing skills into a single integrated workspace that works with any LLM.
+> Combines structured business discovery, 48 strategic frameworks, and 44 executable marketing skills into a single integrated workspace that works with any LLM — enhanced with 15 context-engineering skills for reliable agent operation at scale.
 
 ---
 
@@ -40,11 +40,12 @@ The system is organized as a **multi-layer intelligence stack**:
 │      Performance & Operations (OKRs, SMART Goals, PDCA)    │
 ├─────────────────────────────────────────────────────────────┤
 │  LAYER 3: CONTEXT ENGINEERING (Skills/context-engineering/) │
-│  └── 13 foundational agent infrastructure skills:           │
+│  └── 15 foundational agent infrastructure skills:           │
 │      Context Fundamentals, Degradation, Compression,        │
 │      Optimization, Multi-Agent Patterns, Memory Systems,    │
 │      Tool Design, Filesystem Context, Evaluation,           │
 │      Advanced Evaluation, Harness Engineering,              │
+│      BDI Mental States, Hosted Agents,                      │
 │      Project Development, Latent Briefing                   │
 │      (Source: muratcankoylan/Agent-Skills-for-Context-Engineering)│
 ├─────────────────────────────────────────────────────────────┤
@@ -108,7 +109,7 @@ If you already have a `PROJECT_BRIEF.md`, **any AI reading it** has instant full
 │   ├── action_plan_template_EN.md              # Execution planning template
 │   └── ecommerce_strategy_template.md          # E-commerce specific strategy
 ├── Skills/                                      # 44 marketing skill modules
-│   ├── context-engineering/                     # Context engineering (13 skills)
+│   ├── context-engineering/                     # Context engineering (15 skills)
 │   │   ├── context-fundamentals/                # Context window anatomy & attention mechanics
 │   │   ├── context-degradation/                 # Lost-in-middle, poisoning, distraction patterns
 │   │   ├── context-compression/                 # Anchored Iterative, Opaque, Regenerative compression
@@ -261,7 +262,7 @@ The system uses a decision tree to recommend the right frameworks based on disco
 
 | Category | Skills | Purpose |
 |---|---|---|
-| **Context Engineering** | Context Fundamentals, Degradation, Compression, Optimization, Multi-Agent Patterns, Memory Systems, Tool Design, Filesystem Context, Evaluation, Advanced Evaluation, Harness Engineering, Project Development, Latent Briefing (13 skills) | Foundational agent infrastructure — make all other skills work reliably at scale |
+| **Context Engineering** | Context Fundamentals, Degradation, Compression, Optimization, Multi-Agent Patterns, Memory Systems, Tool Design, Filesystem Context, Evaluation, Advanced Evaluation, Harness Engineering, BDI Mental States, Hosted Agents, Project Development, Latent Briefing (15 skills) | Foundational agent infrastructure — make all other skills work reliably at scale |
 | **Acquisition** | SEO, content strategy, ads, social, PR, prospecting, cold email, launch, programmatic SEO, directory submissions | Find and attract customers |
 | **Conversion** | Copywriting, CRO, landing pages, signup, popups, lead magnets | Turn visitors into leads/customers |
 | **Activation** | Onboarding, first-session optimization, paywalls | Deliver first valued experience |
@@ -306,9 +307,9 @@ Most AI business advice is generic because the AI lacks context. This system sol
 | **Version** | 2.1 |
 | **Discovery Questions** | 37 across 8 areas |
 | **Strategic Frameworks** | 48 across 11 categories |
-| **Context Engineering Skills** | 13 (from muratcankoylan/Agent-Skills-for-Context-Engineering) |
+| **Context Engineering Skills** | 15 (from muratcankoylan/Agent-Skills-for-Context-Engineering) |
 | **Marketing Skills** | 44 covering all marketing disciplines |
-| **Total Skills** | 57 (13 foundational + 44 domain-specific) |
+| **Total Skills** | 59 (15 foundational + 44 domain-specific) |
 | **Compatible With** | Any LLM (ChatGPT, Claude, Gemini, Cursor, etc.) |
 | **Discovery Output** | `PROJECT_BRIEF.md` — complete project intelligence |
 | **Quality Control** | `stop-slop` skill for every output |

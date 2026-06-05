@@ -20,8 +20,10 @@ This directory contains 15 context engineering skills adapted from the upstream 
 | 9 | `evaluation` | Deterministic checks, rubrics, quality gates for agent systems | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation) |
 | 10 | `advanced-evaluation` | LLM-as-Judge, pairwise comparison, bias mitigation | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/advanced-evaluation) |
 | 11 | `harness-engineering` | Locked metrics, durable logs, novelty gates, rollback, human approval | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/harness-engineering) |
-| 12 | `project-development` | Task-model fit, batch pipelines, structured output, cost estimation | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/project-development) |
-| 13 | `latent-briefing` | KV cache compaction for orchestrator→worker state sharing | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/latent-briefing) |
+| 12 | `bdi-mental-states` | Belief-Desire-Intention mental state modeling for agents | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/bdi-mental-states) |
+| 13 | `hosted-agents` | Docker build, ACR push, container start, batch eval, continuous eval | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/hosted-agents) |
+| 14 | `project-development` | Task-model fit, batch pipelines, structured output, cost estimation | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/project-development) |
+| 15 | `latent-briefing` | KV cache compaction for orchestrator→worker state sharing | [Upstream](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/latent-briefing) |
 
 ---
 
@@ -52,7 +54,7 @@ For the most up-to-date versions, examples, and research references:
 
 ## Integration with Marketing & Business Skills
 
-These 15 context engineering skills are **foundational** — they make your 55+ marketing skills work reliably at scale.
+These 15 context engineering skills are **foundational** — they make your 44 marketing skills work reliably at scale.
 
 ### Integration Patterns
 
